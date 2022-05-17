@@ -9,21 +9,35 @@
   </url>
   
   <url>
-    <loc>https://panbuan.github.io/post/create-deb-file/</loc>
-    <lastmod>2021-07-21T18:00:36+08:00</lastmod>
+    <loc>https://panbuan.github.io/post/create-pkg-file/</loc>
+    <lastmod>2022-05-17T14:21:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://panbuan.github.io/</loc>
-    <lastmod>2021-07-21T18:00:36+08:00</lastmod>
+    <lastmod>2022-05-17T14:21:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://panbuan.github.io/post/</loc>
+    <lastmod>2022-05-17T14:21:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://panbuan.github.io/post/create-rpm-file/</loc>
+    <lastmod>2022-05-17T14:06:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://panbuan.github.io/post/create-deb-file/</loc>
     <lastmod>2021-07-21T18:00:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>About - Panbuan&#39;s Blog</title>
+  <title>Create PKG File - Panbuan&#39;s Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,9 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Shiji Pan" /><meta name="description" content="Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub." /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Shiji Pan" /><meta name="description" content="create .pkg file for macOS" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -28,7 +26,7 @@ It makes use of a variety of open source projects including:
 <meta name="generator" content="Hugo 0.85.0 with theme even" />
 
 
-<link rel="canonical" href="https://panbuan.github.io/about/" />
+<link rel="canonical" href="https://panbuan.github.io/post/create-pkg-file/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -41,26 +39,20 @@ It makes use of a variety of open source projects including:
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="About" />
-<meta property="og:description" content="Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub." />
+<meta property="og:title" content="Create PKG File" />
+<meta property="og:description" content="create .pkg file for macOS" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://panbuan.github.io/about/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2017-08-20T21:38:52+08:00" />
-<meta property="article:modified_time" content="2017-08-28T21:41:52+08:00" />
+<meta property="og:url" content="https://panbuan.github.io/post/create-pkg-file/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-05-17T14:21:35+08:00" />
+<meta property="article:modified_time" content="2022-05-17T14:21:35+08:00" />
 
-<meta itemprop="name" content="About">
-<meta itemprop="description" content="Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub."><meta itemprop="datePublished" content="2017-08-20T21:38:52+08:00" />
-<meta itemprop="dateModified" content="2017-08-28T21:41:52+08:00" />
-<meta itemprop="wordCount" content="32">
+<meta itemprop="name" content="Create PKG File">
+<meta itemprop="description" content="create .pkg file for macOS"><meta itemprop="datePublished" content="2022-05-17T14:21:35+08:00" />
+<meta itemprop="dateModified" content="2022-05-17T14:21:35+08:00" />
+<meta itemprop="wordCount" content="96">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="About"/>
-<meta name="twitter:description" content="Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub."/>
+<meta name="twitter:title" content="Create PKG File"/>
+<meta name="twitter:description" content="create .pkg file for macOS"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -135,19 +127,106 @@ It makes use of a variety of open source projects including:
       <div class="content-wrapper">
         <div id="content" class="content">
           <article class="post">
-  <div class="post-content">
-    <p>Hugo is a static site engine written in Go.</p>
-<p>It makes use of a variety of open source projects including:</p>
-<ul>
-<li><a href="https://github.com/spf13/cobra">Cobra</a></li>
-<li><a href="https://github.com/spf13/viper">Viper</a></li>
-<li><a href="https://github.com/spf13/jWalterWeatherman">J Walter Weatherman</a></li>
-<li><a href="https://github.com/spf13/cast">Cast</a></li>
-</ul>
-<p>Learn more and contribute on <a href="https://github.com/gohugoio">GitHub</a>.</p>
+    
+    <header class="post-header">
+      <h1 class="post-title">Create PKG File</h1>
 
+      <div class="post-meta">
+        <span class="post-time"> 2022-05-17 </span>
+        
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents"></nav>
   </div>
-</article>
+</div>
+    <div class="post-content">
+      <p>Create .pkg file for macOS.</p>
+<p>You can use quickpkg, <a href="https://github.com/scriptingosx/quickpkg">https://github.com/scriptingosx/quickpkg</a></p>
+<p>For ProjectA, create pkg file on macOS.</p>
+<p>create_pkg.sh</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">export VERSION=1.0
+export RELEASE=1
+export PROJECT_NAME=ProjectA
+export CURRENT_DIR=$(cd $(dirname $0); pwd)
+cd ../
+export PROJECT_PATH=$(cd $(dirname $0); pwd)
+export PKG_CMD=${PROJECT_PATH}/../quickpkg-0.8.1/quickpkg
+
+export APP_BUNDLE_FOLDER=./bin/${PROJECT_NAME}.app
+if [ ! -d &#34;${APP_BUNDLE_FOLDER}&#34; ]; then
+    cp -r ./bin/Template.app ${APP_BUNDLE_FOLDER}
+fi
+
+#copy Info.plist, ${PROJECT_NAME}.icns 
+cp ./doc/${PROJECT_NAME}/Info.plist ./bin/${PROJECT_NAME}.app/Contents/Info.plist
+cp ./icon/${PROJECT_NAME}.icns ./bin/${PROJECT_NAME}.app/Contents/Resources/
+cd bin
+rm -f ./${PROJECT_NAME}.app/Contents/MacOS/*.*
+cp ./${PROJECT_NAME} ./${PROJECT_NAME}.app/Contents/MacOS/
+${PKG_CMD} ./${PROJECT_NAME}.app --output ../dist/macos/${PROJECT_NAME}-${VERSION}.${RELEASE}.pkg 
+cd ${CURRENT_DIR}
+</code></pre></td></tr></table>
+</div>
+</div>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Shiji Pan</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2022-05-17
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        
+        <a class="next" href="/post/create-rpm-file/">
+            <span class="next-text nav-default">Create RPM File</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
         </div>
         
 
